@@ -1,5 +1,5 @@
-//Duy Nguyen
-//dcnguyen16@ole.augie.edu
+//Chi Nguyen
+//cqnguyen18@ole.augie.edu
 //DeckOfCards.java
 import java.util.Scanner;
 import java.util.Random;
