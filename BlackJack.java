@@ -1,5 +1,5 @@
-//Duy Nguyen
-//dcnguyen16@ole.augie.edu
+//Chi Nguyen
+//cqnguyen16@ole.augie.edu
 //BlackJack.java
 import java.util.*;
 import javax.swing.*;
