@@ -195,6 +195,7 @@ public class BlackJack extends JFrame implements ActionListener
 		}
 		return result;
 	}
+	// Winner
 	private void whoWin(Vector<String> player, Vector<String> dealer)
 	{
 		if (total(player) > total(dealer) || total(dealer) > 21)
