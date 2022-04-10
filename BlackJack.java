@@ -207,6 +207,7 @@ public class BlackJack extends JFrame implements ActionListener
 	private void newGame()
 	{
 		deck = new DeckOfCards();
+		dealer.add(deck.deal());
 		deck.shuffle();
 		dealer = new Vector<String>();
 		dealer.add(deck.deal());
