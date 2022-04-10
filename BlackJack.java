@@ -204,6 +204,7 @@ public class BlackJack extends JFrame implements ActionListener
 			JOptionPane.showMessageDialog(null, "You lost.");
 		else JOptionPane.showMessageDialog(null, "It's a tie.");
 	}
+	//new game
 	private void newGame()
 	{
 		deck = new DeckOfCards();
