@@ -195,7 +195,6 @@ public class BlackJack extends JFrame implements ActionListener
 		}
 		return result;
 	}
-	// Winner
 	private void whoWin(Vector<String> player, Vector<String> dealer)
 	{
 		if (total(player) > total(dealer) || total(dealer) > 21)
@@ -204,11 +203,9 @@ public class BlackJack extends JFrame implements ActionListener
 			JOptionPane.showMessageDialog(null, "You lost.");
 		else JOptionPane.showMessageDialog(null, "It's a tie.");
 	}
-	//new game
 	private void newGame()
 	{
 		deck = new DeckOfCards();
-		dealer.add(deck.deal());
 		deck.shuffle();
 		dealer = new Vector<String>();
 		dealer.add(deck.deal());
